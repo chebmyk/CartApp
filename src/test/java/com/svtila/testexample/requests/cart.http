@@ -1,0 +1,14 @@
+GET http://localhost:8080/api/cart
+###
+
+POST http://localhost:8080/api/cart/product/3
+Content-Type: application/json
+###
+
+
+POST http://localhost:8080/api/cart
+Content-Type: application/json
+###
+
+DELETE http://localhost:8080/api/cart/product/1
+###
